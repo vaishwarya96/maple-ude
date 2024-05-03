@@ -2,7 +2,7 @@
 FROM pytorch/pytorch
 
 #Working directory inside the containerls 
-WORKDIR /app1
+WORKDIR /app
 
 # Copy the project directory into the container
 COPY . .
