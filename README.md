@@ -40,19 +40,9 @@ To launch the inference, run
 python3 mahalanobis_calculation.py
 ```
 This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out-of-distribution dataset, and computes the in distribution and out-of-distribution metrics.
+The model weights for the experiments are available in the repository. The model weights for the 'deterministic' experiments on D25 and D50 are available in `deterministic_25` and `deterministic_50` respectively. The model weights for the MAPLE experiments on D25 and D50 are available in `maple_25` and `maple_50` respectively.
 
-If you use this code, please cite the following paper:
+## Demo
 
-Aishwarya Venkataramanan, Assia Benbihi, Martin Laviale, Cedric Pradalier. Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers. In Proceedings of the IEEE/CVF International Conference on Computer Vision. 2023. p. 4488-4497.
-
-```
-@inproceedings{venkataramanan2023gaussian,
-  title={Gaussian Latent Representations for Uncertainty Estimation using Mahalanobis Distance in Deep Classifiers},
-  author={Venkataramanan, Aishwarya and Benbihi, Assia and Laviale, Martin and Pradalier, C{\'e}dric},
-  booktitle={Proceedings of the IEEE/CVF International Conference on Computer Vision},
-  pages={4488--4497},
-  year={2023}
-}
-```
 
 
