@@ -1,7 +1,5 @@
-# MAPLE
+# MAPLE for diatom classification and Out of Distribution Detection
 
-Code for "Gaussian Latent Representations for Uncertainty Estimation Using Mahalanobis Distance in Deep Classifiers", ICCV Workshop 2023.
-  
 
 ## Dataset
 
@@ -21,7 +19,7 @@ The dataset is arranged such that each class has a directory with the correspond
 │   │   ├── classN
 
 ```
-Each dataset is followed by a csv file containing the class name and the corresponding classification label. An example for CIFAR10 is given in `data/cifar10.csv`.
+Each dataset is followed by a csv file containing the class name and the corresponding classification label. The CSV files for the D25 and D50 in-distribution (ID) and out-of-distribution (OOD) experiments are available in the `data/` folder. The ID files for D25 and D50 are `ude_dataset_25.csv` and `ude_dataset_50.csv` respectively. The OOD files for D25 and D50 are `ude_ood_dataset_25.csv` and `ude_ood_dataset_50.csv` respectively.
 
 Before launching the training, please make sure that the dataset paths and the id paths (csv files) are included in the `config.py`. 
 
