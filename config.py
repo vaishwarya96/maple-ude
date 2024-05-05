@@ -40,7 +40,7 @@ _C.TRAIN = CN()
 #Batch size
 _C.TRAIN.BATCH_SIZE = 128
 #Maximum clusters that X-Means can generate for each class
-_C.TRAIN_MAX_ALLOWED_CLUSTERS = 1
+_C.TRAIN_MAX_ALLOWED_CLUSTERS = 5
 #Margin value for triplet loss
 _C.TRAIN.TRIPLET_LOSS_MARGIN = 0.7
 #Number of training epochs
@@ -52,7 +52,7 @@ _C.TRAIN.LEARNING_RATE = 0.0002
 #False negative ratio
 _C.TRAIN.FNR = 0.3
 #Maximum number of allowed clusters
-_C.TRAIN.MAX_CLUSTERS = 1
+_C.TRAIN.MAX_CLUSTERS = 5
 
 ###Inference parameters###
 _C.INF = CN()
