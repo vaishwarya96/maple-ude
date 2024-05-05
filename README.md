@@ -45,6 +45,7 @@ The model weights for the experiments are available in the repository. The model
 
 ## Containerization
 The docker images for the experiments are publicly available. 
+
 <a href="https://hub.docker.com/repository/docker/vaishwarya96/maple_50/general" target="_blank">Docker image for MAPLE experiment on D50</a>
 
 <a href="https://hub.docker.com/repository/docker/vaishwarya96/deterministic_50/general" target="_blank">Docker image for Deterministic experiment on D50</a>
