@@ -26,7 +26,7 @@ Before launching the training, please make sure that the dataset paths and the i
 
 ## Training
 
-The necessary python libraries and their versions to run the code are specified in `requirements.txt`. 
+Python 3.10 was used for the training. The necessary python libraries and their versions to run the code are specified in `requirements.txt`. 
 The hyperparameters and arguments needed for training the network are available in `config.py`. Depending on the dataset used, please make sure to change the respective hyperparameters. 
 To launch the training, run 
 ```
@@ -40,9 +40,16 @@ To launch the inference, run
 python3 mahalanobis_calculation.py
 ```
 This calculates the Mahalanobis distance and the prediction probability for both the in distribution and out-of-distribution dataset, and computes the in distribution and out-of-distribution metrics.
+
 The model weights for the experiments are available in the repository. The model weights for the 'deterministic' experiments on D25 and D50 are available in `deterministic_25` and `deterministic_50` respectively. The model weights for the MAPLE experiments on D25 and D50 are available in `maple_25` and `maple_50` respectively.
 
-## Demo
+## Containerization
+The docker images for the experiments are publicly available. 
+<a href="https://hub.docker.com/repository/docker/vaishwarya96/maple_50/general" target="_blank">Docker image for MAPLE experiment on D50</a>
 
+<a href="https://hub.docker.com/repository/docker/vaishwarya96/deterministic_50/general" target="_blank">Docker image for Deterministic experiment on D50</a>
 
+<a href="https://hub.docker.com/repository/docker/vaishwarya96/maple_25/general" target="_blank">Docker image for MAPLE experiment on D25</a>
+
+<a href="https://hub.docker.com/repository/docker/vaishwarya96/deterministic_25/general" target="_blank">Docker image for Deterministic experiment on D25</a>
 
