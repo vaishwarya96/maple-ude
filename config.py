@@ -24,7 +24,7 @@ _C.DATASET = CN()
 #ID map path
 _C.DATASET.ID_MAP_PATH = 'data/ude_dataset_50.csv'
 #Dataset path
-_C.DATASET.DATASET_PATH = '/app/ude_dataset_50' 
+_C.DATASET.DATASET_PATH = 'data/ude_dataset_50' 
 #Fraction of data for validation
 _C.DATASET.VAL_SIZE = 0.2
 #Image size
@@ -57,9 +57,9 @@ _C.TRAIN.MAX_CLUSTERS = 1
 ###Inference parameters###
 _C.INF = CN()
 #Path to ID test dataset
-_C.INF.ID_TEST_DATASET = '/app/ude_dataset_50'
+_C.INF.ID_TEST_DATASET = 'data/test_ude_dataset_50'
 #Path to OOD dataset
-_C.INF.OOD_TEST_DATASET = '/app/ude_ood_dataset_50'
+_C.INF.OOD_TEST_DATASET = 'data/ude_ood_dataset_50'
 #OOD ID map
 _C.INF.OOD_ID_MAP_PATH = 'data/ude_ood_dataset_50.csv'
 #Threshold on explained variance cumsum
